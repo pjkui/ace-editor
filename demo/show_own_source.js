@@ -9,7 +9,11 @@ if (typeof ace == "undefined" && typeof require == "undefined") {
 }
 
 function setValue() {
-    require("ace/lib/net").get(document.baseURI, function(t){
+//     require("ace/lib/net").get(document.baseURI, function(t){
+//         var el = document.getElementById("editor");
+//         el.env.editor.setValue(t, 1);
+//     })
+     require("ace/lib/net").get('data.json', function(t){
         var el = document.getElementById("editor");
         el.env.editor.setValue(t, 1);
     })

@@ -454,3 +454,15 @@ styles.join("\n")
 .ace_br13{border-top-left-radius    : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}
 .ace_br14{border-top-right-radius   : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}
 .ace_br15{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;}
+
+.optionTitle{
+    width: 200px;
+    color: yellow;
+    pointer-events:all;
+    display: inline-block;
+    border: 1px solid greenyellow;
+
+}
+.optionBody{
+/*visibility: hidden;*/
+}
